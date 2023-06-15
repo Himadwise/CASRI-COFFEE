@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 992px;
+  margin: auto;
+}
+.container i {
+  color: black;
+  font-size: 33px;
+}
+.container h1 {
+  text-align: center;
+  margin: 20px;
+  border-bottom: 1px solid black;
+}
+.image {
+  width: 50%;
+}
+.image img {
+  width: 100%;
+  box-shadow: 2px 2px 2px black;
+}
+.info {
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+}
+.info i {
+  color: blue;
+  font-size: 40px;
+  margin: 20px;
+}
+.main-con {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+  margin: 20px;
+}
+.main a {
+  padding: 10px;
+}
+.main a button {
+  padding: 15px 20px;
+  background-color: rgb(52, 52, 230);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 1s;
+  color: #fff;
+}
+.main a button:hover {
+  background-color: blue;
+}
+footer {
+  background-color: aliceblue;
+  padding: 20px;
+}
+footer p {
+  opacity: 0.6;
+  text-align: center;
+}

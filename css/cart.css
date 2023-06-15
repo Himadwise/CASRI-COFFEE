@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.pay {
+  text-align: center;
+  margin: 10px;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+
+.container {
+  max-width: 992px;
+  margin: auto;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.info {
+  text-align: center;
+}
+.info p {
+  font-size: 18px;
+  opacity: 0.6;
+}
+.social {
+  margin: 10px;
+  font-size: 22px;
+}
+.social a {
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  width: 400px;
+  margin: auto;
+  padding: 5px;
+}
+.input > * {
+  display: block;
+  width: 100%;
+}
+.input label {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 5px 0;
+}
+.input > input {
+  height: 40px;
+  outline: none;
+  font-size: 22px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid blue;
+}
+.input textarea {
+  outline: none;
+  font-size: 22px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.input > button {
+  padding: 10px;
+  border: none;
+  background-color: rgb(23, 23, 201);
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.input select {
+  padding: 10px;
+  font-size: 22px;
+  outline: none;
+  border: 1px solid blue;
+}
+.input p{
+  font-size: 20px;
+  margin-bottom: 5px;
+  opacity: 0.7;
+  font-weight: 0;
+}
+.gender{
+  margin:5px 20px;
+  width: 300px; 
+  cursor: pointer;
+  display: flex;
+  font-size: 22px;
+  justify-content: space-between;
+}
+.all{
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+.gender input{
+  margin-left: 10px;
+  cursor: pointer;
+}
+footer {
+  background-color: aliceblue;
+}
+footer p {
+  opacity: 0.6;
+  padding: 10px;
+  text-align: center;
+}

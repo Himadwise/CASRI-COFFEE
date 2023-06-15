@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* General classes */
+
+.container{
+    max-width: 1110px;
+    margin: auto;
+}
+
+
+
+/* special Clasess */
+.head{
+    background-color: aliceblue;
+    position: sticky;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-left h1{
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(0, 0, 255);
+}
+.head-left span{
+    font-size: 28px;
+}
+.head-right ul{
+    display: flex;
+    list-style-type: none;
+    margin: 10px;
+}
+.head-right ul li {
+    margin: 10px;
+}
+.head-right ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.head-right ul li a:hover{
+    background-color:#000;
+    color: white;
+    padding: 10px;
+
+}
+.active{
+    background-color:#000;
+    color: white;
+    padding: 10px;
+}
+
+/* HERO SECTION*/
+
+.hero{
+    margin-top: 20px;
+    height: 75vh;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(./images/vr-coffe.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 0 4px 4px ;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0,0.9);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero h3{
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.hero h3 small{
+    font-size: 36px;
+    text-transform: uppercase;
+    color: rgb(47, 245, 228);
+    font-weight: bold;
+}
+.info-btn button{
+    padding: 15px 20px;
+    margin: 5px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.primary{
+    background-color: rgba(122, 122, 238, 0.987);
+    color: #fff;
+    transition: all 1s;
+}
+.primary:hover{
+    background-color: rgb(29, 29, 217);
+}
+.secondary{
+    transition: all 1s;
+}
+.secondary:hover{
+    background-color: #fff;
+}
+
+/* services */
+.coffee{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+}
+.coffee >*{
+    margin: 10px;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.img img{
+    width:100%;
+    height: 100%;
+}
+.card{
+    margin: 10px;
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+.card .info{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.card button {
+    padding: 10px 0;
+    background-color: rgb(7, 7, 241);
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    width: 100%;
+    color: #fff;
+}
+.card button a {
+    text-decoration: none;
+    color: white;
+}
+#service h1{
+    text-align: center;
+    margin: 50px;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+}
+
+footer{
+    background-color: aliceblue;
+    padding: 20px;
+}
+footer h1{
+    font-size: 16px;
+    opacity:0.5;
+    text-align: center;
+}

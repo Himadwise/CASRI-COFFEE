@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  background-color: aliceblue;
+  padding: 30px;
+}
+.container {
+  max-width: 992px;
+  margin: auto;
+}
+.home {
+  margin: 40px;
+}
+.home iframe {
+  border-radius: 13px;
+  box-shadow: 5px 5px 5px #000;
+}
+.container ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.container ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: rgb(103, 143, 143);
+  padding: 10px 15px;
+}
+.container ul li a:hover {
+  background-color: rgb(49, 49, 224);
+}
+
+.card {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card .image {
+  width: 400px;
+  height: 400px;
+}
+.card .image img {
+  width: 100%;
+  border-radius: 50%;
+  height: 100%;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info p {
+  width: 500px;
+  text-align: center;
+  margin-top: 10px;
+}
+.info h6 {
+  text-align: center;
+  font-size: 22px;
+  text-decoration: it;
+}
+.info button {
+  padding: 10px 100px;
+  border: none;
+  font-size: 22px;
+  background-color: hsl(240, 93%, 56%);
+  cursor: pointer;
+  color: white;
+}
+.info button:hover {
+  background-color: hsl(240, 90%, 35%);
+}
+span {
+  color: rgb(202, 122, 23);
+  font-weight: bold;
+}
+
+footer {
+  background-color: aliceblue;
+  padding: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+footer p {
+  opacity: 0.7;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+  margin: 20px;
+}
+
+.main button {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(13, 13, 236);
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+}
